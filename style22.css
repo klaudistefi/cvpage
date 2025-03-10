@@ -244,9 +244,12 @@ footer {
     margin: 0 auto;
 }
 
-.pdf-container embed {
+
+.pdf-container iframe {
     width: 100%;
-    height: 700px;
+    max-width: 100%;
+    height: 80vh;
+    border: none;
 }
 
 /* image phone */
